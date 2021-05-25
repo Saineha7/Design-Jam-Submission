@@ -1,0 +1,312 @@
+/* index.html css  */
+
+p {
+  font-family: 'Assistant', sans-serif;
+}
+
+hr {
+  border: #000 6px;
+  border-bottom: none;
+  margin: 50px auto;
+  width: 10%;
+}
+
+/* containers */
+.container-fluid {
+  padding: 5% 11%;
+}
+
+#About .container-fluid {
+  padding-top: 3%;
+}
+
+/* Navigation Bar */
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+/* Intro Section */
+#Intro {
+  text-align: center;
+  background-color: #fdfaf6;
+  background-image: linear-gradient(to bottom right, #faf1e6, #aad8d3);
+}
+
+#Intro p {
+  margin-bottom: 10%;
+}
+
+.intro-heading {
+  font-family: 'Allura', 'Tangerine', cursive;
+  font-display: swap;
+  font-size: 5rem;
+  margin: 11% auto 2%;
+}
+
+@media (max-width:600px) {
+  h1.intro-heading {
+    font-size: max(4.5vw, 2em, 2rem);
+  }
+}
+
+.Arrow-icon {
+  color: #000;
+}
+
+/* About Section  */
+.about-heading {
+  font-family: serif;
+  text-align: center;
+  font-size: 5rem;
+  padding-bottom: 2%;
+}
+
+@media (max-width:600px) {
+  h1.about-heading {
+    text-align: center;
+    font-size: max(4.5vw, 2em, 2rem);
+  }
+}
+
+.about-content {
+  text-align: center;
+  font-family: 'Assistant', sans-serif;
+  font-weight: 900;
+  margin-bottom: 5%;
+}
+
+.michelle-image {
+  width: 90%;
+  height: 87%;
+}
+
+@media (max-width: 1028px) {
+  .about-content h1 {
+    text-align: center;
+    margin: 5% 0 2%;
+  }
+}
+
+.about-content p {
+  text-align: justify;
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+/* Early-life Section  */
+#Early-life {
+  font-family: 'Assistant', sans-serif;
+  font-weight: 500;
+  background-color: #e4efe7;
+  background-image: linear-gradient(to bottom right, #dff4f3, #aad8d3, #dff4f3);
+}
+
+#Early-life h1 {
+  text-align: center;
+  font-weight: 700;
+  padding-bottom: 2%;
+}
+
+.early-text {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+/* Education and career  */
+.edu {
+  font-family: 'Assistant', sans-serif;
+  font-weight: 500;
+}
+
+.edu h1 {
+  text-align: center;
+  font-weight: 700;
+  padding: 2.5% 4.5% 5%;
+}
+
+.edu p {
+  line-height: 2rem;
+}
+
+.positioning {
+  position: relative;
+}
+
+.edu-images {
+  position: absolute;
+}
+
+@media (max-width: 1028px) {
+  .edu-images {
+    position: static;
+  }
+}
+
+.ei1 {
+  width: 170px;
+  height: 170px;
+}
+
+.ei2 {
+  left: 200px;
+  top: 100px;
+  width: 130px;
+  height: 130px;
+}
+
+.ei3 {
+  width: 200px;
+  height: 200px;
+  left: 14%;
+  top: 6%;
+}
+
+/* Books Section */
+#Books {
+  background-color: #dff4f3;
+  background-image: linear-gradient(to bottom right, #dff4f3, #aad8d3, #dff4f3);
+  padding: 2% 11% 4%;
+  margin: 0 100px 30px;
+}
+
+.book-heading {
+  font-family: 'Tangerine', cursive;
+  text-align: center;
+  color: #393e46;
+  font-size: 4rem;
+  font-weight: 700;
+  padding: 3% 4.5% 4%;
+}
+
+@media (max-width:600px) {
+  h1.book-heading {
+    font-size: max(4.5vw, 2em, 2rem);
+  }
+}
+
+.book-img1 {
+  position: relative;
+  left: 25%;
+  width: 50%;
+  height: 370px;
+  bottom: 20px;
+  padding: 2%;
+}
+
+.book-img2 {
+  position: relative;
+  left: 32%;
+  width: 300px;
+  bottom: 20px;
+  height: 370px;
+  padding: 2%;
+}
+
+.book-img3 {
+  position: relative;
+  left: 27%;
+  width: 300px;
+  bottom: 10px;
+  height: 300px;
+  padding: 3%;
+}
+
+@media (max-width: 900px) {
+  #book-carousel {
+    width: 100%;
+    height: 100%;
+  }
+
+  .book-img1, .book-img2, .book-img3 {
+    width: 50%;
+    height: 20%;
+  }
+
+  .carousel-control-next,
+  .carousel-control-prev {
+    filter: invert(100%);
+  }
+}
+
+/* Quotes Section */
+#Quotes {
+  padding-bottom: 3%;
+}
+
+.quote-heading {
+  font-family: 'Assistant', sans-serif;
+  text-align: center;
+  font-weight: 600;
+  font-size: 4rem;
+  padding: 0 4.5% 4%;
+}
+
+@media (max-width:600px) {
+  h1.quote-heading {
+    font-size: max(4.5vw, 2em, 2rem);
+  }
+}
+
+.b1, .b2, .b3 {
+  padding: 3% 2% 3%;
+}
+
+.bubble {
+  width: 10%;
+  height: auto;
+  border-radius: 100%;
+}
+
+.bubble-l {
+  float: left;
+  margin-right: 30px;
+}
+
+.bubble-r {
+  float: right;
+  margin-left: 30px;
+}
+
+.bl-desc {
+  clear: right;
+}
+
+.br-desc {
+  clear: left;
+  text-align: right;
+}
+
+/* ping us!*/
+.ping-us {
+  text-align: center;
+  margin-bottom: 4%;
+}
+
+.ping-us h3, .ping-us h6 {
+  padding: 1%;
+  color: #11999E;
+}
+
+.ping-btn {
+  margin: 1%;
+}
+
+/* Footer Section */
+#Footer {
+  text-align: center;
+  background-color: #94d0cc;
+  background-image: linear-gradient(to bottom right, #aad8d3, #eeeeee);
+}
+
+.social-icon {
+  margin: 20px 10px;
+  color: #000;
+}
+
+.social-icon :hover {
+  color: grey;
+}

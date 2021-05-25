@@ -1,0 +1,46 @@
+/* Next page */
+
+html, body {
+  background-color: #ffe2e2;
+  background-image: linear-gradient(to bottom right, #f6f6f6, #ffe2e2, #c9cbff);
+  height: 100%;
+}
+
+h1 {
+  font-family: serif;
+  text-align: center;
+  font-size: 4rem;
+  font-weight: bold;
+  padding: 1%;
+}
+
+@media (max-width:600px) {
+  h1 {
+    font-size: max(4.5vw, 2em, 2rem);
+  }
+}
+
+p {
+  font-family: 'Assistant', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-align: justify;
+}
+
+/* Containers */
+.container-fluid {
+  padding: 3% 10%;
+}
+
+/* Navigation Section */
+.about-html nav {
+  padding-bottom: 5%;
+}
+
+.about-html .navbar-brand {
+  font-size: 2rem;
+}
+
+.nav-link {
+  font-size: 1.5rem;
+}

@@ -215,7 +215,12 @@ hr {
   padding: 3%;
 }
 
-@media (max-width: 900px) {
+.carousel-control-next,
+.carousel-control-prev {
+  filter: invert(100%);
+}
+
+@media (max-width: 1040px) {
   #book-carousel {
     width: 100%;
     height: 100%;
@@ -224,18 +229,9 @@ hr {
   .book-img1, .book-img2, .book-img3 {
     width: 50%;
     height: 20%;
-  }
-
-  .carousel-control-next,
-  .carousel-control-prev {
-    filter: invert(100%);
-  }
-}
-
-@media (max-width: 1040px){
-  .book-img2, .book-img3 {
     left: 25%;
   }
+
 }
 
 /* Quotes Section */

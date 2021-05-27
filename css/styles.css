@@ -82,6 +82,9 @@ hr {
 .michelle-image {
   width: 90%;
   height: 87%;
+  position: relative;
+  top: 2%;
+  left: 7%;
 }
 
 @media (max-width: 1028px) {
@@ -163,6 +166,7 @@ hr {
   height: 200px;
   left: 14%;
   top: 6%;
+  padding-bottom: 1%;
 }
 
 /* Books Section */

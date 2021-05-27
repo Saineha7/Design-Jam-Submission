@@ -134,6 +134,7 @@ hr {
 
 .positioning {
   position: relative;
+  text-align: center;
 }
 
 .edu-images {
@@ -149,21 +150,23 @@ hr {
 .ei1 {
   width: 170px;
   height: 170px;
+  padding: 1%;
 }
 
 .ei2 {
-  left: 200px;
-  top: 100px;
+  left: 55px;
+  top: 152px;
   width: 130px;
   height: 130px;
+  padding: 1%;
 }
 
 .ei3 {
   width: 200px;
   height: 200px;
   left: 14%;
-  top: 6%;
-  padding-bottom: 1%;
+  top: 12%;
+  padding-bottom: 4%;
 }
 
 /* Books Section */

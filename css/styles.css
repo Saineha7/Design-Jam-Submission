@@ -232,6 +232,12 @@ hr {
   }
 }
 
+@media (max-width: 1040px){
+  .book-img2, .book-img3 {
+    left: 25%;
+  }
+}
+
 /* Quotes Section */
 #Quotes .container-fluid {
   padding-bottom: 2%;

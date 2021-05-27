@@ -199,7 +199,7 @@ hr {
 
 .book-img2 {
   position: relative;
-  left: 32%;
+  left: 29%;
   width: 300px;
   bottom: 20px;
   height: 370px;
@@ -233,8 +233,8 @@ hr {
 }
 
 /* Quotes Section */
-#Quotes {
-  padding-bottom: 3%;
+#Quotes .container-fluid {
+  padding-bottom: 2%;
 }
 
 .quote-heading {
@@ -280,6 +280,11 @@ hr {
   text-align: right;
 }
 
+.michelle-social {
+  text-align: center;
+  padding-top: 100px;
+}
+
 /* ping us!*/
 .ping-us {
   text-align: center;
@@ -293,6 +298,7 @@ hr {
 
 .ping-btn {
   margin: 1%;
+  margin-top: 2%;
 }
 
 /* Footer Section */

@@ -188,50 +188,31 @@ hr {
   }
 }
 
-.book-img1 {
+.book-img1, .book-img2, .book-img3 {
   position: relative;
-  left: 25%;
   width: 50%;
-  height: 370px;
-  bottom: 20px;
+  height: 20%;
+  left: 25%;
+}
+
+.book-img1 {
+  bottom: 10px;
   padding: 2%;
 }
 
 .book-img2 {
-  position: relative;
-  left: 29%;
-  width: 300px;
   bottom: 20px;
-  height: 370px;
   padding: 2%;
 }
 
 .book-img3 {
-  position: relative;
-  left: 27%;
-  width: 300px;
   bottom: 10px;
-  height: 300px;
   padding: 3%;
 }
 
 .carousel-control-next,
 .carousel-control-prev {
   filter: invert(100%);
-}
-
-@media (max-width: 1040px) {
-  #book-carousel {
-    width: 100%;
-    height: 100%;
-  }
-
-  .book-img1, .book-img2, .book-img3 {
-    width: 50%;
-    height: 20%;
-    left: 25%;
-  }
-
 }
 
 /* Quotes Section */
